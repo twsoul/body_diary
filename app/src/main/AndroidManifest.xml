@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.a1013c.body_sns">
+
+    <!-- <uses-feature android:name="android.hardware.camera2" /> -->
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/body_logo"
+        android:label="Body Diary"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/body_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--//맵-->
+        <!--<meta-data-->
+            <!--android:name="com.google.android.geo.API_KEY"-->
+            <!--android:value="AIzaSyA4sDqfPI0F9vceRHemXlA4q7Ua-io4dO0" />-->
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.a1013c.body_sns.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".Navigation_activity"
+            android:label="Body Diary"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".login_body">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login_membership" />
+        <activity android:name=".contents_main" />
+        <activity android:name=".loding_activity" />
+        <activity android:name=".other_profile" />
+        <activity android:name=".edit_profile" />
+        <activity android:name=".MainActivity_camera" />
+        <activity android:name=".add1" />
+        <activity android:name=".Eat" />
+        <!-- 식단 사진 -->
+        <activity android:name=".Img">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <!-- 몸 사진 -->
+        <activity android:name=".Body_Img" />
+
+        <!-- sqlite 테스트 -->
+        <activity android:name=".Test_Main" />
+        <activity android:name=".Test_edit" />
+        <activity android:name=".Dialog_edit1" />
+        <activity android:name=".add_img" />
+
+        <!-- 크롤링 -->
+        <activity android:name=".News" />
+        <activity android:name=".Wannabe" />
+        <!-- <activity android:name=".Dialog_edit" android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"/> -->
+
+
+        <!-- 알람 -->
+        <activity android:name=".Alarm_main" />
+        <receiver android:name=".Alarm_Receiver" />
+
+        <activity android:name=".chating.chating_main" />
+
+        <activity android:name=".Board.board_main" />
+        <activity android:name=".Board.board_add"></activity>
+
+        <activity android:name=".Rollet"/>
+
+        <!--비전-->
+        <activity android:name=".MainActivity"/>
+        <!--맵-->
+        <!--<activity android:name=".Map"/>-->
+
+
+    </application>
+
+</manifest>

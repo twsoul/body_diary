@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/today_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="날짜"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/textview_recyclerview_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_color"
+        android:text="아침밥"
+        android:layout_weight="1" />
+
+
+    <TextView
+        android:id="@+id/textview_recyclerview_english"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_color"
+        android:text="점심밥"
+        android:layout_weight="1" />
+
+
+    <TextView
+        android:id="@+id/textview_recyclerview_korean"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_color"
+        android:text="저녁밥"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="몸 사진" />
+        <item
+            android:id="@+id/eat"
+            android:icon="@drawable/eat"
+            android:title="식단 기록" />
+        <item
+            android:id="@+id/nav_profile_edit"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="식단 사진" />
+        <item
+            android:id="@+id/nav_ex"
+            android:icon="@drawable/health"
+            android:title="간단한 운동 메모" />
+        <item
+            android:id="@+id/alarm"
+            android:icon="@drawable/alarm"
+            android:title="알람 설정" />
+        <item
+            android:id="@+id/test"
+            android:icon="@drawable/ic_wanna"
+            android:title="몸 자랑 게시판" />
+
+
+    </group>
+
+    <item android:title="외부">
+        <menu>
+            <item
+                android:id="@+id/news"
+                android:icon="@drawable/news"
+                android:title="건강 정보" />
+            <item
+                android:id="@+id/wannabe_photo"
+                android:icon="@drawable/ic_wanna"
+                android:title="워너비 사진 정보" />
+            <item
+                android:id="@+id/mini_game"
+                android:icon="@drawable/ic_game"
+                android:title="미니 운동 게임" />
+            <item
+                android:id="@+id/test2"
+                android:icon="@drawable/body_logo"
+                android:title="영양 성분 도출하기" />
+            <item
+            android:id="@+id/feedback_send"
+            android:icon="@drawable/ic_menu_send"
+            android:title="피드백 보내기 " />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="자동 시작 해제" />
+
+        </menu>
+    </item>
+
+</menu>
