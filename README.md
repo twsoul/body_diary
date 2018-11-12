@@ -17,7 +17,7 @@
 
 <사용 기술>
 * 언어 - java
-* 
+* 라이브러리/api - vision, sqlite(android), google firebase, vision api, card view, picasso, gson, jsoup
 
 
 
