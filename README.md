@@ -1,4 +1,4 @@
-# body_diary (프로젝트 버전)
+# body_diary ( 버전)
 <body_diary pf_version>
 
 첫 안드로이드 프로젝트 
