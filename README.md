@@ -23,7 +23,8 @@
 
  
 <영상>
-<iframe width="1280" height="763" src="https://www.youtube.com/embed/dz-I5gUQm3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+https://www.youtube.com/embed/dz-I5gUQm3E
 
 
 
