@@ -21,8 +21,10 @@
 * 언어 - java
 * 라이브러리/api - vision, sqlite(android), google firebase, vision api, card view, picasso, gson, jsoup
 
+ 
 <영상>
 <iframe width="1280" height="763" src="https://www.youtube.com/embed/dz-I5gUQm3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 <세부 설명 >
