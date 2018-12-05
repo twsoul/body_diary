@@ -82,3 +82,8 @@ https://www.youtube.com/embed/dz-I5gUQm3E
 14. 피드백 보내기
     - 개발자에게 피드백을 보낼수 있는 기능입니다.
     
+    
+    
+- 연락처 : 1013cm@naver.com
+
+    
